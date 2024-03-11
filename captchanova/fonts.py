@@ -1,7 +1,7 @@
 import random
 from urllib.request import urlopen
 
-FONTS_URL = (
+FONTS_URL = {
     'https://github.com/impallari/Dosis/raw/master/fonts/v1007%20Fontlab%20-%20Original/TTF/Dosis-Bold.ttf',
     'https://github.com/impallari/Dosis/raw/master/fonts/v1007%20Fontlab%20-%20Original/TTF/Dosis-Book.ttf',
     'https://github.com/impallari/Dosis/raw/master/fonts/v1007%20Fontlab%20-%20Original/TTF/Dosis-ExtraBold.ttf',
@@ -55,18 +55,6 @@ FONTS_URL = (
     'https://github.com/vernnobile/OswaldFont/raw/master/3.0/Roman/400/Oswald-Regular.ttf',
     'https://github.com/vernnobile/OswaldFont/raw/master/3.0/Roman/300/Oswald-Light.ttf',
     'https://github.com/vernnobile/OswaldFont/raw/master/3.0/Roman/200/Oswald-ExtraLight.ttf',
-    'https://github.com/vernnobile/OswaldFont/raw/master/3.0/Italic/600/Oswald-Demi-BoldItalic.ttf',
-    'https://github.com/vernnobile/OswaldFont/raw/master/3.0/Italic/600/Oswald-Demi-BoldItalic.ttf',
-    'https://github.com/vernnobile/OswaldFont/raw/master/3.0/Italic/600/Oswald-Demi-BoldItalic.ttf',
-    'https://github.com/vernnobile/OswaldFont/raw/master/3.0/Italic/600/Oswald-Demi-BoldItalic.ttf',
-    'https://github.com/vernnobile/OswaldFont/raw/master/3.0/Italic/600/Oswald-Demi-BoldItalic.ttf',
-    'https://github.com/vernnobile/OswaldFont/raw/master/3.0/Italic/600/Oswald-Demi-BoldItalic.ttf',
-    'https://github.com/vernnobile/OswaldFont/raw/master/3.0/Italic/600/Oswald-Demi-BoldItalic.ttf',
-    'https://github.com/vernnobile/OswaldFont/raw/master/3.0/Italic/600/Oswald-Demi-BoldItalic.ttf',
-    'https://github.com/vernnobile/OswaldFont/raw/master/3.0/Italic/600/Oswald-Demi-BoldItalic.ttf',
-    'https://github.com/vernnobile/OswaldFont/raw/master/3.0/Italic/600/Oswald-Demi-BoldItalic.ttf',
-    'https://github.com/vernnobile/OswaldFont/raw/master/3.0/Italic/600/Oswald-Demi-BoldItalic.ttf',
-    'https://github.com/vernnobile/OswaldFont/raw/master/3.0/Italic/600/Oswald-Demi-BoldItalic.ttf',
     'https://github.com/adobe-fonts/source-sans/raw/release/TTF/SourceSans3-Black.ttf',
     'https://github.com/adobe-fonts/source-sans/raw/release/TTF/SourceSans3-BlackIt.ttf',
     'https://github.com/adobe-fonts/source-sans/raw/release/TTF/SourceSans3-Bold.ttf',
@@ -116,7 +104,7 @@ FONTS_URL = (
     'https://github.com/mozilla/Fira/raw/master/ttf/FiraSans-UltraItalic.ttf',
     'https://github.com/mozilla/Fira/raw/master/ttf/FiraSans-UltraLight.ttf',
     'https://github.com/mozilla/Fira/raw/master/ttf/FiraSans-UltraLightItalic.ttf',
-)
+}
 
 CACHED_FONTS = {}
 
